@@ -23,10 +23,10 @@ void BabblingModule::begin()
 
     int status = WL_IDLE_STATUS;
     do {
-        status = WiFi.begin(WIFI_SSID, WIFI_PWD);
+        status = WiFi.begin(BAB_WIFI_SSID, BAB_WIFI_PWD);
     } while (status != WL_CONNECTED);
 
-    _udp.begin(ARDUINO_UDP_PORT);
+    _udp.begin(BAB_ARDUINO_UDP_PORT);
 }
 
 bool BabblingModule::running()

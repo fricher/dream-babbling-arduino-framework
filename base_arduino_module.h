@@ -1,11 +1,6 @@
 #ifndef _BASE_ARDUINO_MODULE_H_
 #define _BASE_ARDUINO_MODULE_H_
 
-#define WIFI_SSID "dream_babbling"
-#define WIFI_PWD "dreambab"
-
-#define BABBLING_MAX_PACKET_SIZE 64
-
 #include </home/florian/ros_catkin_ws/src/babbling_modules/include/babbling_modules/modules_defs.h>
 #include <WiFi101.h>
 #include <WiFiUdp.h>
