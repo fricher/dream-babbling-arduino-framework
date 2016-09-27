@@ -33,8 +33,8 @@ public:
     /**
      * @brief Grabs a packet from the udp socket.
      * 
-     * @param buffer A buffer to hold the packet's data..
-     * @return The size of the packet, or -1 if there was no packet or if the packet was handled by this class
+     * @param buffer A buffer to hold the packet's data.
+     * @return The size of the packet, or -1 if there was no packet or if the packet was handled by this class.
      */
     int getPacket ( uint8_t *buffer );
     
