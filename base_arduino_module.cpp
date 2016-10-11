@@ -18,7 +18,7 @@ void BabblingModule::begin()
     }
 
     String fv = WiFi.firmwareVersion();
-    Serial.print("Firmware version : ");
+    Serial.print("Wifi Firmware version : ");
     Serial.println(fv);
 
     int status = WL_IDLE_STATUS;
