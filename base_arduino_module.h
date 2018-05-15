@@ -1,7 +1,7 @@
 #ifndef _BASE_ARDUINO_MODULE_H_
 #define _BASE_ARDUINO_MODULE_H_
 
-#include </home/florian/ros_catkin_ws/src/dream_babbling_modules/include/dream_babbling_modules/modules_defs.h>
+#include </home/florian/catkin_ws/src/dream_babbling_modules/include/dream_babbling_modules/modules_defs.h>
 #include <WiFi101.h>
 #include <WiFiUdp.h>
 

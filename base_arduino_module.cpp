@@ -25,6 +25,10 @@ void BabblingModule::begin()
     do {
         status = WiFi.begin(BAB_WIFI_SSID, BAB_WIFI_PWD);
     } while (status != WL_CONNECTED);
+    
+    IPAddress ip = WiFi.localIP();
+    Serial.print("Local IP: ");
+    Serial.println(ip);
 
     _udp.begin(BAB_ARDUINO_UDP_PORT);
 }
